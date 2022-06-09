@@ -1,0 +1,28 @@
+{
+  "inventory": [
+    {
+      "display_name": "Otter Pops",
+      "image": "otter_pops.png",
+      "cost": 1,
+      "batch_size": 3,
+      "batch_cost": 2,
+      "count": 170
+    },
+    {
+      "display_name": "Caprisun",
+      "image": "caprisun.png",
+      "cost": 1,
+      "batch_size": 1,
+      "batch_cost": 1,
+      "count": 40
+    },
+    {
+      "display_name": "Chips",
+      "image": "chips.png",
+      "cost": 1,
+      "batch_size": 1,
+      "batch_cost": 1,
+      "count": 29
+    }
+  ]
+}

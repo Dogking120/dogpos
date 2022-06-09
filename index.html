@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./default_style.css" />
+    <link rel="stylesheet" href="./style_reset.css" />
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="item_image">
+
+            <img id="item_image"/>
+
+        </div>
+
+        <div class="item">
+
+            <div class="button" id="-5" data-color="black" onclick="addItems(-5)">
+
+                -5
+
+            </div>
+
+            <div class="button" id="-1" data-color="black" onclick="addItems(-1)">
+
+                -1
+
+            </div>
+
+            <div class="button" id="change_item" onclick="changeItem()">
+
+                CHANGE ITEM
+
+            </div>
+
+            <div class="button" id="+1" data-color="red" onclick="addItems(1)">
+
+                +1
+
+            </div>
+
+            <div class="button" id="+5" data-color="red" onclick="addItems(5)">
+
+                +5
+
+            </div>
+
+        </div>
+
+        <div class="item_info">
+
+            <div class="tab" id="currentItem">
+                <span>ITEM: </span>
+                <span class="value"></span>
+            </div>
+
+            <div class="tab" id="currentCount" data-shade="dark">
+                <span>ITEM COUNT [#]: </span>
+                <span class="value"></span>
+            </div>
+
+            <div class="tab" id="item">
+            </div>
+
+            <div class="tab" id="item" data-shade="dark">
+            </div>
+
+            <div class="tab" id="total">
+                <span>TOTAL [$]: </span>
+                <span class="value"></span>
+            </div>
+
+            <div class="button" id="sell" onclick="sell()">
+                SELL
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
